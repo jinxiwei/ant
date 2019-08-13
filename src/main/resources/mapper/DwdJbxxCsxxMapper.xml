@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.ant.dao.DwdJbxxCsxxMapper">
+    <resultMap id="BaseResultMap" type="com.king.ant.model.entity.DwdJbxxCsxx">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="sjrq" jdbcType="TIMESTAMP" property="sjrq"/>
+        <result column="csyxzmbh" jdbcType="VARCHAR" property="csyxzmbh"/>
+        <result column="csyxzmbb" jdbcType="VARCHAR" property="csyxzmbb"/>
+        <result column="xsexm" jdbcType="VARCHAR" property="xsexm"/>
+        <result column="sfzjlb" jdbcType="VARCHAR" property="sfzjlb"/>
+        <result column="sfzjhm" jdbcType="VARCHAR" property="sfzjhm"/>
+        <result column="fqsfzjlb" jdbcType="VARCHAR" property="fqsfzjlb"/>
+        <result column="fqsfzh" jdbcType="VARCHAR" property="fqsfzh"/>
+        <result column="mqsfzjlb" jdbcType="VARCHAR" property="mqsfzjlb"/>
+        <result column="mqsfzh" jdbcType="VARCHAR" property="mqsfzh"/>
+        <result column="csyxzmqfrq" jdbcType="TIMESTAMP" property="csyxzmqfrq"/>
+        <result column="csyxzmqfjg" jdbcType="VARCHAR" property="csyxzmqfjg"/>
+        <result column="csdxzqyxz" jdbcType="VARCHAR" property="csdxzqyxz"/>
+        <result column="csyxznqngyz" jdbcType="VARCHAR" property="csyxznqngyz"/>
+        <result column="csyxzqmzy" jdbcType="VARCHAR" property="csyxzqmzy"/>
+        <result column="csyxzmqmz" jdbcType="VARCHAR" property="csyxzmqmz"/>
+        <result column="csyxzmsjcqmz" jdbcType="VARCHAR" property="csyxzmsjcqmz"/>
+        <result column="csdabh" jdbcType="VARCHAR" property="csdabh"/>
+        <result column="csyz" jdbcType="INTEGER" property="csyz"/>
+        <result column="cssj" jdbcType="TIMESTAMP" property="cssj"/>
+        <result column="fmfs" jdbcType="VARCHAR" property="fmfs"/>
+        <result column="cstz" jdbcType="DECIMAL" property="cstz"/>
+        <result column="cssc" jdbcType="DECIMAL" property="cssc"/>
+        <result column="csjkzk" jdbcType="VARCHAR" property="csjkzk"/>
+        <result column="csdd" jdbcType="VARCHAR" property="csdd"/>
+        <result column="cstc" jdbcType="INTEGER" property="cstc"/>
+        <result column="ycfcc" jdbcType="VARCHAR" property="ycfcc"/>
+        <result column="sfgwrs" jdbcType="VARCHAR" property="sfgwrs"/>
+        <result column="ycfjkzk" jdbcType="VARCHAR" property="ycfjkzk"/>
+        <result column="sfycsqx" jdbcType="VARCHAR" property="sfycsqx"/>
+        <result column="lyb" jdbcType="VARCHAR" property="lyb"/>
+        <result column="lyjg" jdbcType="VARCHAR" property="lyjg"/>
+        <result column="yxsj" jdbcType="TIMESTAMP" property="yxsj"/>
+    </resultMap>
+    <sql id="baseColumn">
+        id, sjrq, csyxzmbh, csyxzmbb, xsexm,sfzjlb, sfzjhm, fqsfzjlb, fqsfzh, mqsfzjlb, mqsfzh, csyxzmqfrq, csyxzmqfjg,
+        csdxzqyxz, csyxznqngyz, csyxzqmzy, csyxzmqmz, csyxzmsjcqmz, csdabh, csyz, cssj, fmfs, cstz, cssc, csjkzk, csdd,
+        cstc, ycfcc, sfgwrs, ycfjkzk, sfycsqx, lyb, lyjg, yxsj
+    </sql>
+</mapper>

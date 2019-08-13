@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.ant.dao.DwdDjxxFrdjxxFMapper">
+    <resultMap id="BaseResultMap" type="com.king.ant.model.entity.DwdDjxxFrdjxxF">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="uuid" jdbcType="VARCHAR" property="uuid"/>
+        <result column="nbxh" jdbcType="VARCHAR" property="nbxh"/>
+        <result column="qymc" jdbcType="VARCHAR" property="qymc"/>
+        <result column="zs" jdbcType="VARCHAR" property="zs"/>
+        <result column="fddbr" jdbcType="VARCHAR" property="fddbr"/>
+        <result column="sfzjhm" jdbcType="VARCHAR" property="sfzjhm"/>
+        <result column="qylx" jdbcType="VARCHAR" property="qylx"/>
+        <result column="qylxdl" jdbcType="VARCHAR" property="qylxdl"/>
+        <result column="hy" jdbcType="VARCHAR" property="hy"/>
+        <result column="cyrs" jdbcType="DECIMAL" property="cyrs"/>
+        <result column="zczb" jdbcType="DECIMAL" property="zczb"/>
+        <result column="hsxs" jdbcType="VARCHAR" property="hsxs"/>
+        <result column="zch" jdbcType="VARCHAR" property="zch"/>
+        <result column="zzfbs" jdbcType="DECIMAL" property="zzfbs"/>
+        <result column="clrq" jdbcType="TIMESTAMP" property="clrq"/>
+        <result column="djjg" jdbcType="VARCHAR" property="djjg"/>
+        <result column="jyqsrq" jdbcType="TIMESTAMP" property="jyqsrq"/>
+        <result column="jyjzrq" jdbcType="TIMESTAMP" property="jyjzrq"/>
+        <result column="dah" jdbcType="VARCHAR" property="dah"/>
+        <result column="gxdw" jdbcType="VARCHAR" property="gxdw"/>
+        <result column="qytydm" jdbcType="VARCHAR" property="qytydm"/>
+        <result column="gbdq" jdbcType="VARCHAR" property="gbdq"/>
+        <result column="zt" jdbcType="VARCHAR" property="zt"/>
+        <result column="sjcze" jdbcType="DECIMAL" property="sjcze"/>
+        <result column="ldzj" jdbcType="REAL" property="ldzj"/>
+        <result column="gdzj" jdbcType="REAL" property="gdzj"/>
+        <result column="glph" jdbcType="VARCHAR" property="glph"/>
+        <result column="xzjd" jdbcType="VARCHAR" property="xzjd"/>
+        <result column="tsdm3" jdbcType="VARCHAR" property="tsdm3"/>
+        <result column="zysb" jdbcType="VARCHAR" property="zysb"/>
+        <result column="zcxs" jdbcType="VARCHAR" property="zcxs"/>
+        <result column="jyxs" jdbcType="VARCHAR" property="jyxs"/>
+        <result column="xgsj" jdbcType="TIMESTAMP" property="xgsj"/>
+        <result column="zsdjjg" jdbcType="VARCHAR" property="zsdjjg"/>
+        <result column="xkjyxm" jdbcType="VARCHAR" property="xkjyxm"/>
+        <result column="slfs" jdbcType="VARCHAR" property="slfs"/>
+        <result column="jylb" jdbcType="VARCHAR" property="jylb"/>
+        <result column="tsjylb" jdbcType="VARCHAR" property="tsjylb"/>
+        <result column="sltzswh" jdbcType="VARCHAR" property="sltzswh"/>
+        <result column="newhydm" jdbcType="VARCHAR" property="newhydm"/>
+        <result column="gjjdjjg" jdbcType="VARCHAR" property="gjjdjjg"/>
+        <result column="uniscid" jdbcType="VARCHAR" property="uniscid"/>
+        <result column="scjycd" jdbcType="VARCHAR" property="scjycd"/>
+        <result column="zzjgdmz" jdbcType="VARCHAR" property="zzjgdmz"/>
+        <result column="yyzzbh" jdbcType="VARCHAR" property="yyzzbh"/>
+    </resultMap>
+</mapper>

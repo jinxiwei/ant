@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.ant.dao.DwdJbxxHygxMapper">
+    <resultMap id="BaseResultMap" type="com.king.ant.model.entity.DwdJbxxHygx">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="sjrq" jdbcType="TIMESTAMP" property="sjrq"/>
+        <result column="zjlb" jdbcType="VARCHAR" property="zjlb"/>
+        <result column="zjhm" jdbcType="VARCHAR" property="zjhm"/>
+        <result column="xm" jdbcType="VARCHAR" property="xm"/>
+        <result column="hygx" jdbcType="VARCHAR" property="hygx"/>
+        <result column="poxm" jdbcType="VARCHAR" property="poxm"/>
+        <result column="pozjlb" jdbcType="VARCHAR" property="pozjlb"/>
+        <result column="pozjhm" jdbcType="VARCHAR" property="pozjhm"/>
+        <result column="jlhgxh" jdbcType="VARCHAR" property="jlhgxh"/>
+        <result column="jlhdjrq" jdbcType="TIMESTAMP" property="jlhdjrq"/>
+        <result column="lyjg" jdbcType="VARCHAR" property="lyjg"/>
+        <result column="lyb" jdbcType="VARCHAR" property="lyb"/>
+        <result column="yxsj" jdbcType="TIMESTAMP" property="yxsj"/>
+    </resultMap>
+    <sql id="baseColumn">
+        id, sjrq, zjlb, zjhm, xm, hygx, poxm, pozjlb, pozjhm, jlhgxh, jlhdjrq, lyjg, lyb, yxsj
+    </sql>
+</mapper>

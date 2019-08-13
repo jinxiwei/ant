@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.ant.dao.DwdJbxxJbdjxxInfoMapper">
+    <resultMap id="BaseResultMap" type="com.king.ant.model.entity.DwdJbxxJbdjxxInfo">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="sjrq" jdbcType="TIMESTAMP" property="sjrq"/>
+        <result column="zjlb" jdbcType="VARCHAR" property="zjlb"/>
+        <result column="zjhm" jdbcType="VARCHAR" property="zjhm"/>
+        <result column="czldlx" jdbcType="VARCHAR" property="czldlx"/>
+        <result column="xm" jdbcType="VARCHAR" property="xm"/>
+        <result column="cym" jdbcType="VARCHAR" property="cym"/>
+        <result column="xb" jdbcType="VARCHAR" property="xb"/>
+        <result column="mz" jdbcType="VARCHAR" property="mz"/>
+        <result column="csrq" jdbcType="TIMESTAMP" property="csrq"/>
+        <result column="gj" jdbcType="VARCHAR" property="gj"/>
+        <result column="csdgjhdq" jdbcType="VARCHAR" property="csdgjhdq"/>
+        <result column="csdssx" jdbcType="VARCHAR" property="csdssx"/>
+        <result column="zzmm" jdbcType="VARCHAR" property="zzmm"/>
+        <result column="zjxy" jdbcType="VARCHAR" property="zjxy"/>
+        <result column="byzk" jdbcType="VARCHAR" property="byzk"/>
+        <result column="ywxm" jdbcType="VARCHAR" property="ywxm"/>
+        <result column="xmzwpy" jdbcType="VARCHAR" property="xmzwpy"/>
+        <result column="xmm" jdbcType="VARCHAR" property="xmm"/>
+        <result column="xmx" jdbcType="VARCHAR" property="xmx"/>
+        <result column="yxsj" jdbcType="TIMESTAMP" property="yxsj"/>
+        <result column="sfqhdm" jdbcType="VARCHAR" property="sfqhdm" />
+    </resultMap>
+    <sql id="baseColumn">
+        id, sjrq, zjlb, zjhm, czldlx, xm, xb, mz, csrq, gj, csdgjhdq, csdssx, zzmm, zjxy, byzk, ywxm, xmzwpy, xmm, xmx, yxsj, sfqhdm
+    </sql>
+</mapper>
