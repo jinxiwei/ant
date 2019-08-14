@@ -6,7 +6,6 @@ import com.king.ant.service.AutoAddRecordService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.Date;
 
 /**
  * @ClassName AutoAddRecordServiceImpl
