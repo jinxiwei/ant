@@ -23,7 +23,7 @@
         <fastjson.version>1.2.51</fastjson.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-beanutils.version>1.9.3</commons-beanutils.version>
-        <jsoup.version>1.11.3</jsoup.version>
+        <jsoup.version>1.15.3</jsoup.version>
         <tk.mybatis.version>1.2.4</tk.mybatis.version>
     </properties>
 
